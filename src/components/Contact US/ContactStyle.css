@@ -1,0 +1,125 @@
+.Contacbg{
+    background-color: #16181D;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+}
+.maincard5{
+    border: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.cardmain1{
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+    width: auto;
+    border: none;
+
+
+}
+
+.CardHeading{
+    text-align: center;
+    color: white;
+}
+
+input{
+    background-color: rgb(49, 49, 49) !important;
+    height: 3rem;
+    border-color: rgb(49, 49, 49) !important ;
+    outline-color: rgb(49, 49, 49) !important ;
+    color: white !important;
+}
+textarea{
+    background-color: rgb(49, 49, 49) !important;
+   
+    border-color: rgb(49, 49, 49) !important ;
+    outline-color: rgb(49, 49, 49) !important ;
+}
+
+
+
+/* --------------------------------- */
+
+.contactimgmain{
+    /* width: 100%; */
+    height:27.5rem !important;
+}
+
+.contactimg{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+
+
+
+
+
+  ::placeholder {
+    color: white !important;
+    /* font-size: 30px; */
+  }
+
+
+
+  @media (min-width:280px) and (max-width:480px) {
+
+      .contactimgmain{
+          width: 100% !important;
+          margin-top: 3rem;
+      }
+
+      .cardmain{
+        background-color: rgb(24, 24, 24);
+        box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+        width: auto !important;
+        margin-left: -28px;
+       
+    
+    
+    }
+      
+  }
+
+  
+@media (min-width:280px) and (max-width:3000px) {
+    .contactpadingdiv{
+        padding: 0 3rem 0 3rem;
+    
+    }
+    
+    }
+ 
+
+    @media (min-width:1500px) and (max-width:3000px) {
+
+        .cardmain1{
+            background-color: rgb(24, 24, 24);
+            box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+            width: auto;
+            height: 50rem!important;
+            border: none;
+        
+        
+        }.contactimgmain{
+            /* width: 100%; */
+            height:40rem !important;
+        }
+        .forminputfield{
+            height: 4rem !important;
+            font-size: 30px;
+        }
+        .textmassage{
+            font-size: 30px;
+        }
+        .CardHeading{
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+      
+        }

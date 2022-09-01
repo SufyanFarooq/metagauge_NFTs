@@ -1,0 +1,195 @@
+.FeaturebgColor{
+    background-color: #16181D;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+}
+
+.carddivborder{
+    
+    background-color:#131519;
+    width: 410px !important;
+    padding: 15px;
+   height: 430px;
+    /* border-style: solid; */
+    /* border-width: 5px 5px 5px 5px; */
+    /* border-color: #D70E1D; */
+    box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+    /* border-radius: 20px 20px 20px 20px; */
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    /* border-style: groove; */
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  /* margin: 2em 0; */
+}
+
+li {
+  margin: 1em;
+  margin-left: 1.5em;
+}
+
+li:before {
+  content: '\f0e7' ;
+  font-family: 'FontAwesome' !important;
+  float: left;
+  margin-left: -1.5em;
+  color: red;
+}
+
+.FEATURE{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* .carddivborder:hover{
+    border: dashed 5px #D70E1D;
+} */
+
+.cardinnertextp{
+    color: white;
+    /* line-height: 2rem; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+    font-size: 15px;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+.maincarddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.maincarddiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+.ulcard{
+    list-style: none;
+    padding: 0;
+   
+}
+
+
+
+@media (min-width:280px) and (max-width:900px) {
+
+
+    .carddivborder{
+    
+        background-color:#131519;
+        width: 100% !important;
+        padding: 15px;
+       height: auto ;
+        /* border-style: solid;
+        border-width: 5px 5px 5px 5px;
+        border-color: #D70E1D;
+        box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+        border-radius: 20px 20px 20px 20px; */
+        margin: 10px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;
+      
+    }
+    .cardtextb{
+        
+        padding: 0px;
+    }
+
+
+
+
+
+
+
+}
+
+
+.mobileicon{
+    font-size: 40px;
+    color: #ffba00;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maindiv{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+
+
+   
+ 
+
+    @media (min-width:1500px) and (max-width:2000px) {
+      
+        .carddivborder{
+    
+            background-color:#131519;
+            width: 410px !important;
+            padding: 15px;
+           height: 430px;
+            box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+         
+            margin: 10px 10px 10px 10px;
+            padding: 20px 20px 20px 20px;
+          
+        }
+        .Featureheadingaa{
+            font-size: 50px;
+        }
+        }
+
+        @media (min-width:2000px) and (max-width:3000px) {
+            .ullipsection{
+                /* font-size: 30px;
+                line-height: 2rem; */
+            }
+            .mobileicon{
+                font-size: 40px;
+                color: #ffba00;
+                background: transparent;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .cardheadingmaininnersub{
+                /* font-size: 50px; */
+            }
+            .carddivborder{
+        
+                background-color:#131519;
+                width: 410px !important;
+                padding: 15px;
+                height: 430px;
+                box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+             
+                margin: 10px 10px 10px 10px;
+                padding: 20px 20px 20px 20px;
+              
+            }
+            .Featureheadingaa{
+                font-size: 45px;
+            }
+            }

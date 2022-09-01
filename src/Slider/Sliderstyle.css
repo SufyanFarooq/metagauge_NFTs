@@ -1,0 +1,31 @@
+.Slidermain{
+    width: 80%;
+}
+
+.imgslider{
+    border-radius: 15px;
+}
+
+@media (min-width:280px) and (max-width:480px) {
+
+    .imgslider{
+        border-radius: 15px;
+    }
+
+    .Slidermain{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:998px) {
+
+    .imgslider{
+        border-radius: 15px;
+    }
+
+    .Slidermain{
+        width: 80%;
+      
+    }
+}

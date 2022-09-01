@@ -1,0 +1,212 @@
+.Roadmapcolordiv {
+    background-color: #131519;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+}
+
+.roadmapul {
+    color: gray;
+    margin-top: 2rem;
+    line-height: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: square;
+    font-size: 15px;
+    margin-bottom: 0.4rem;
+}
+.ROADMAP{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.PHASE1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.PHASE3{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.PHASE4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.PHASE2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.listicon{
+    color: red;
+   
+}
+
+.carddivRoad{
+    
+    background-color:#131519;
+    width: 410px !important;
+    padding: 15px;
+   height: 450px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #D70E1D;
+    box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    /* border-style: groove; */
+}
+
+.carddivRoad:hover{
+    border: dashed 5px #D70E1D;
+}
+
+.maincarddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.maincarddiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.Roadiconlist{
+    list-style: none;
+    padding: 0;
+}
+.Roadiconlist li{
+    font-size: 20px;
+}
+.innerdivulandli {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.innerdivulandlipase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* 
+.innercolroad{
+    text-align: center;
+} */
+
+@media (min-width:280px) and (max-width:900px) {
+    .carddivRoad{
+    
+        background-color:#131519;
+        width: 410px !important;
+        padding: 15px;
+       height: auto;
+        border-style: solid;
+        border-width: 5px 5px 5px 5px;
+        border-color: #D70E1D;
+        box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+        /* border-radius: 20px 20px 20px 20px; */
+        margin: 10px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;
+        /* border-style: groove; */
+    }
+
+
+}
+
+
+
+
+
+ 
+
+@media (min-width:1500px) and (max-width:2000px) {
+      
+        .carddivRoad{
+    
+            background-color:#131519;
+            width: 410px !important;
+            padding: 15px;
+            height: 450px;
+            border-style: solid;
+            border-width: 5px 5px 5px 5px;
+            border-color: #D70E1D;
+            box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+            /* border-radius: 20px 20px 20px 20px; */
+            margin: 10px 10px 10px 10px;
+            padding: 20px 20px 20px 20px;
+            /* border-style: groove; */
+        }
+        .ROADMAP{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 45px;
+        }
+    
+        }
+
+
+        @media (min-width:2000px) and (max-width:3000px) {
+      /* .roadmapliulsub{
+          font-size: 30px !important;
+      } */
+            .carddivRoad{
+        
+                background-color:#131519;
+                width: 410px !important;
+                padding: 15px;
+                height: 450px;
+                border-style: solid;
+                border-width: 5px 5px 5px 5px;
+                border-color: #D70E1D;
+                box-shadow: 0px 0px 10px 0px rgb(215 14 29 / 30%);
+                /* border-radius: 20px 20px 20px 20px; */
+                margin: 10px 10px 10px 10px;
+                padding: 20px 20px 20px 20px;
+                /* border-style: groove; */
+            }
+            .ROADMAP{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 45px;
+            }
+
+            .PHASE1{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            .PHASE3{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            .PHASE4{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            
+            .PHASE2{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+        
+            }

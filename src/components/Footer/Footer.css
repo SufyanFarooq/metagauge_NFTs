@@ -1,0 +1,147 @@
+
+.footerdivcolor{
+    background-color: #131519;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+
+    
+
+}
+
+.link{
+    margin-left: 0.5rem;
+}
+
+.checkdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Linkdiv{
+    width: 55%;
+    flex-wrap: wrap;
+}
+
+.innerLinkDiv{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    color: white;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+
+
+
+.Footerimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.FooterCopy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFBA00;
+   padding: 20px 4rem 20px 4rem;
+}
+
+.innericon{
+    display: flex;
+    flex-direction: row ;
+    margin-bottom: 2rem;
+}
+.footericon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.IconB{
+    color: #FFBA00;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+.innerLinkDiv p{
+    color: white;
+   
+}
+.innerLinkDiv a{
+    text-decoration: none !important;
+}
+
+@media (min-width:280px) and (max-width:480px) {
+
+    .innerLinkDiv{
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        color: white;
+        flex-wrap: wrap;
+        /* margin-left: 2rem; */
+        font-size: 12px;
+        
+    }
+    .link{
+        margin-left: 0.5rem;
+    }
+    .Linkdiv{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .FooterCopy{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #FFBA00;
+       padding: 15px;
+      
+    }
+    
+}
+
+@media (min-width:280px) and (max-width:3000px) {
+    .contactpadingdiv{
+        padding: 0 3rem 0 3rem;
+    
+    }
+    
+    
+ 
+
+}
+
+@media (min-width:1400px) and (max-width:3000px) {
+
+
+    .link{
+        font-size: 1.5rem ;
+        margin-left: 2rem;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .Linkdiv{
+        width: auto !important;
+        flex-wrap: wrap;
+    }
+    .footerimglarge{
+        width: 12rem;
+    }
+    .IconB{
+        color: #FFBA00;
+        margin-left: 1rem;
+        font-size: 30px;
+    }
+    .FooterCopyP{
+        font-size: 20px;
+    }
+}

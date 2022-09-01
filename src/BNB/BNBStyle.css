@@ -1,0 +1,406 @@
+.bgBNB{
+    background-color: #131519;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+}
+
+.Firstimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+/* BNB CardSide---------------------------------------------------------------------- */
+
+
+/* CArd 1--------------------------------- */
+.cardbody1{
+    
+    padding: 0 5px 0 15px ;
+}
+.maincard{
+    /* border: none; */
+    /* background-color: rgb(27, 27, 27); */
+    background: transparent;
+    border-radius: 15px;
+    border: red solid 1px !important;
+  
+}
+.cardbody1 p{
+    /* margin-top: 1rem; */
+    /* text-align: center; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 0.5rem; */
+}
+.ppp{
+    line-height: 1.5rem !important;
+}
+.mainimgdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  
+}
+.imgheader{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #ef3f45;
+    border-radius: 25px ;
+    padding: 8px; */
+}
+/* End------------------------------ */
+
+/* Card 2--------------------------------- */
+.maincard2{
+    /* background-color: goldenrod; */
+    background: transparent;
+    border-radius: 15px;
+    border: white solid 1px;
+    
+}
+
+/* Card@ ENd------------------------------- */
+
+
+/* Card 3--------------------------------- */
+/* .maincard2{
+    background-color: red;
+} */
+
+/* Card@ ENd------------------------------- */
+
+
+
+
+/* END------------------------------------------------------------------------------------ */
+.Firstimginner{
+    /* width: 100%; */
+    border-radius: 15px;
+    z-index: 2;
+}
+.Secondimgcol img{
+    border-radius: 20px;
+    
+}
+.uldiv{
+    color: white;
+}
+.divcol{
+    color: white;
+    text-decoration: line-through;
+    /* font-size: 30px; */
+}
+.divcol1{
+    color: white;
+    /* font-size: 30px !important; */
+    text-align: center !important;
+  
+}
+.divStage{
+    color: white;
+
+    font-size: 30px !important;
+
+}
+/* .bnblINETHROUGH{
+    text-align: center;
+} */
+ul{
+    list-style: none;
+}
+ul::before{
+
+}
+
+ul li p{
+    font-size: 14px;
+}
+.iconchck{
+    color: #FFBA00;
+    font-size: 17px;
+}
+.iconinner{
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    justify-content: start;
+}
+.iconinner p{
+    font-size: 15px !important;
+}
+
+.scalediv{
+    display: flex;
+    flex-direction: row;
+}
+.Userdiv{
+    display: flex;
+    flex-direction: row;
+}
+.Userdiv i{
+
+    margin-left: 2rem;
+}
+    
+.BNBbtn{
+    background: linear-gradient(
+        15deg, #FFBA00 20%, #D70E1D 100%);
+        border-radius: 10px;
+        width: auto;
+        padding: 10px 30px 10px 30px ;
+      
+}
+
+
+.BNBfooterbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:2rem;
+    width: auto;
+}
+
+.BNBtextcol{
+    margin-top: -4rem;
+}
+
+
+
+
+.BNBProgressbar{
+    height: 2rem;
+    width:100% ;
+    font-size:15px;
+    color: red !important;
+    margin-top: 1rem;
+}
+
+.Sliderdiv{
+    margin-top: 6rem;
+} 
+
+@media (min-width:280px) and (max-width:480px) {
+    .ulclasscard{
+        margin-left: -2rem;
+    }
+    .bnblINETHROUGH{
+        text-align: center;
+    }
+
+    .BNBtextcol{
+        margin-top: 2rem;
+    }
+    .Sliderdiv{
+        margin-top: -5rem;
+      
+    } 
+    .Userdiv i{
+
+        margin-left: 0rem;
+    }
+    .maincard{
+        border: red solid 1px !important;
+        background: transparent !important;
+        border-radius: 15px;
+        /* margin-left: -2rem; */
+        width: auto;
+        
+    }
+    .maincard2{
+        background: transparent !important;
+        border: red solid 1px;
+    }
+
+    .BNBProgressbar{
+        height: 2rem;
+        width:auto ;
+        font-size:15px;
+        color: red !important;
+        margin-top: 1rem;
+    }
+    .iconinner{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .Userdivi{
+
+        margin-left: 1rem;
+    }
+    .BNBbtn{
+        background: linear-gradient(
+            15deg, #FFBA00 20%, #D70E1D 100%);
+            border-radius: 10px;
+            width: 20rem !important;
+            padding: 10px 30px 10px 30px ;
+            color: white;
+          
+    }
+    .Firstimginner{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+}
+
+@media (min-width:480px) and (max-width:991px) {
+
+    .BNBtextcol{
+        margin-top: 4rem;
+    }
+    .Sliderdiv{
+        margin-top: -5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  
+      
+    } 
+    .bnblINETHROUGH{
+        text-align: center;
+    }
+
+    .BNBProgressbar{
+        height: 2rem;
+        width:auto ;
+        font-size:15px;
+        color: red !important;
+        margin-top: 1rem;
+    }
+    .Firstimginner{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .MainSlider{
+        
+    }
+
+
+
+}
+
+
+
+@media (min-width:1500px) and (max-width:2000px) {
+    /* .BNBbtn{
+        width: 50%;
+    
+    } */
+    
+    .maincard{
+        /* border: none; */
+        /* background-color: rgb(27, 27, 27); */
+        background: transparent;
+        border-radius: 15px;
+        border: red solid 1px !important;
+        height: 22rem;
+        line-height: 2rem;
+      
+    }
+    .maincard2{
+        /* background-color: goldenrod; */
+        background: transparent;
+        border-radius: 15px;
+        border: white solid 1px;
+        height: 22rem;
+        
+    }
+    .cardbody1 p{
+        /* margin-top: 1rem; */
+        /* text-align: center; */
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* line-height: 0.5rem; */
+    }
+    .ppp{
+        line-height: 3rem !important;
+    }
+    .imgheader{
+        width: 70px;
+    }
+    .Sliderdiv{
+        margin-top: 16rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  
+      
+    } 
+    
+    }
+
+    @media (min-width:2000px) and (max-width:3000px) {
+       
+      .Userdiv p{
+          font-size: 30px !important;
+      }
+      .Userdiv i{
+        font-size: 40px !important;
+      }
+
+      .scalediv p{
+        font-size: 30px !important;
+
+      }
+      .scalediv i{
+        font-size: 40px !important;
+
+      }
+      .limiteddivgdghfj{
+        font-size: 40px !important;
+      }
+      .BNBbtn{
+        width: 50%;
+        font-size: 30px !important;
+        color: whitesmoke;
+    
+    }
+    .Sliderdiv{
+        margin-top: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  
+      
+    } 
+    .maincard{
+        /* border: none; */
+        /* background-color: rgb(27, 27, 27); */
+        background: transparent;
+        border-radius: 15px;
+        border: red solid 1px !important;
+        height: 25rem;
+        line-height: 2rem;
+      
+    }
+    .maincard2{
+        /* background-color: goldenrod; */
+        background: transparent;
+        border-radius: 15px;
+        border: white solid 1px;
+        height: 25rem;
+        
+    }
+    .cardbody1 p{
+        /* margin-top: 1rem; */
+        /* text-align: center; */
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* line-height: 0.5rem; */
+        text-align: left !important;
+    }
+    .ppp{
+        line-height: 2rem !important;
+        text-align: left !important;
+    }
+    .imgheader{
+        width: 70px;
+    }
+        
+        }

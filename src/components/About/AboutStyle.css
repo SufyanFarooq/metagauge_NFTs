@@ -1,0 +1,408 @@
+.AboutNFTpage {
+    background-color: #16181D;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/body-bg.png);
+    background-repeat: repeat;
+}
+
+
+.mainHeading {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.SlidermainAbout {
+    width: 70%;
+
+}
+
+.Aboutfirstcol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.linkcontract {
+    text-decoration: none;
+    color: white;
+}
+
+.colaboutheading1 {
+
+    color: white;
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+    text-align: justify;
+
+    hyphens: auto;
+
+}
+
+.videPlayer {
+    display: flex;
+
+    justify-content: end;
+
+}
+
+
+
+.sliderContainer {
+    height: 150%;
+    width: 50%;
+    margin-top: -10rem;
+}
+
+.carouselimg {
+    width: 60% !important;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 7rem !important;
+    margin-bottom: 5rem;
+    border-radius: 15px;
+}
+
+.aboutCarousel {
+    margin-top: -6rem;
+    width: 50%;
+}
+
+.cardimg1 {
+    z-index: 1000 !important;
+    margin-top: 2rem;
+}
+
+.slidermaindivhere {
+    width: 80% !important;
+
+}
+
+.sliderabout {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.Innertokendiv {
+    background-color: #131519;
+    background-image: url(https://metagauge.thecubcamp.com/wp-content/uploads/2021/12/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innertextdivtoken {
+    color: white;
+    margin-top: 4rem;
+
+    margin-bottom: 0.4rem;
+}
+
+.innertextdivtoken p {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.TOKENOMICS {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.chartdiv {
+
+    width: 90% !important;
+    margin-top: 4rem;
+
+
+}
+
+
+
+@media (min-width:600px) and (max-width:769px) {
+    .chartdiv {
+
+        width: 90%;
+        margin-top: 4rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .tokentext {
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media (min-width:769px) and (max-width:990px) {
+    .chartdiv {
+
+        width: 130%;
+        margin-top: 7rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+
+
+    }
+
+    .tokentext {
+        text-align: center;
+    }
+
+    .innertextdivtoken p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+}
+
+
+@media (min-width:1050px) and (max-width:3000px) {
+    .chartdiv {
+
+        width: 90% !important;
+        margin-top: 7rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+
+    .sliderabout {
+        display: none;
+
+
+    }
+
+
+}
+
+
+@media (min-width:280px) and (max-width:400px) {
+
+    .chartdiv {
+
+        width: 50%;
+        margin-top: 4rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .innertextdivtoken p {
+        text-align: left;
+        font-size: 20px;
+        color: white;
+
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .Cardsdivabout {
+        display: none;
+    }
+
+
+
+
+
+}
+
+@media (min-width:400px) and (max-width:600px) {
+
+    .chartdiv {
+
+        width: 65%;
+        margin-top: 5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+
+
+
+
+}
+
+@media (min-width:997px) and (max-width:3000px) {
+
+    .sliderabout {
+        display: none;
+
+
+    }
+
+
+
+}
+
+
+@media (min-width:280px) and (max-width:3000px) {
+
+  
+    
+
+   
+}
+
+
+@media (min-width:1500px) and (max-width:2000px) {
+
+    .tokentext {
+        
+        font-size: 50px;
+    }
+    .innertextdivtoken p {
+        text-align: left;
+        font-size: 30px;
+        color: white;
+    
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+    .colaboutheading1 {
+
+        color: white;
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    
+        font-size: 20px;
+        margin-bottom: 0.4rem;
+        text-align: justify;
+    
+        hyphens: auto;
+    
+    }
+    .mainHeading {
+        text-align: left;
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:997px) {
+
+    .Cardsdivabout {
+        display: none;
+    }
+
+
+
+}
+
+
+@media (min-width:300px) and (max-width:600px) {
+
+    .colaboutheading1 {
+
+        color: white;
+        line-height: normal;
+
+
+        font-size: 15px;
+        margin-bottom: 0.4rem;
+        text-align: left;
+        margin-top: 5rem;
+    }
+
+    .tokentext {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .Chartimg {
+        width: 90%;
+        border: none;
+    }
+
+    .innertextdivtoken p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .colaboutheading1 {
+        text-align: justify;
+    }
+
+    .slidermaindivhere {
+        width: auto !important;
+
+    }
+
+}
+
+
+@media (min-width:2000px) and (max-width:3000px) {
+
+    .tokentext {
+        
+        font-size: 40px;
+      
+    }
+    .innertextdivtoken p {
+        text-align: left;
+        font-size: 25px;
+        color: white;
+    
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+    .colaboutheading1 {
+
+        color: white;
+        line-height: normal;
+        font-family: 'Open Sans', sans-serif;
+    
+        font-size: 25px;
+        margin-bottom: 0.4rem;
+        text-align: justify;
+    
+        hyphens: auto;
+    
+    }
+    .mainHeading {
+        text-align: left;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+}

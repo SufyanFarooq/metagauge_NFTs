@@ -1,0 +1,310 @@
+.bg{
+    background-color: #1F242C;
+    background-image: url('../../assests/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 100vh;
+    /* width: 98.7vw; */
+}
+/* 
+}
+#tsparticles{
+    position:absolute !important;
+    height: 100vh !important;
+   
+} */
+
+
+
+.homepageppp{
+    color: #ffffff;
+    line-height: 2rem;
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+    letter-spacing: normal;
+    text-align: left;
+    hyphens: auto;
+  
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.landfirdstppp{
+    color: #FFF;
+    line-height: 2.5rem;
+    font-size: 33px;
+    margin-bottom: 0.2rem;
+   font-weight: bolder;
+   letter-spacing: normal;
+   font-family: 'Open Sans', sans-serif;
+   /* font-family: 'Rubik', sans-serif; */
+   text-align: left;
+   hyphens: auto !important;
+   
+}
+
+@media (min-width:600px) and (max-width:3000px) {
+
+ 
+    
+    .landingpagerow{
+        margin-top: 5rem;
+    }
+    .bg{
+        height: auto;
+    }
+    .homepaddingdiv{
+        padding: 0 3rem 0 3rem;
+    }
+    /* .videPlayer{
+        height: 700px !important;
+   
+    
+    } */
+  
+}
+
+@media (min-width:280px) and (max-width:600px) {
+   
+  
+    
+
+    .landingpagerow{
+        margin-top:5rem;
+    }
+    .bg{
+        height: auto;
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        /* height: 100vh;
+        width: 98.7vw; */
+       
+       
+       
+    }
+    .videoplerdiv{
+        margin-top: 1rem;
+        width: 50%;
+    }
+}
+
+.pLine{
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    width: 48%;
+}
+.belowPLine{
+    margin-top: 1rem;
+}
+.homepageppp{
+   
+    font-size: 20px;
+   
+    
+}
+.videPlayer{
+    /* display: flex;
+
+    justify-content: end; */
+    /* border: 2px solid red; */
+
+}
+
+
+@media (min-width:1501px) and (max-width:200px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 120vh !important;
+        /* width: 98.7vw; */
+    }
+}
+
+
+@media (min-width:991px) and (max-width:1200px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 150vh !important;
+        /* width: 98.7vw; */
+    }
+}
+
+@media (min-width:750px) and (max-width:991px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 200vh !important;
+        /* width: 98.7vw; */
+    }
+}
+@media (min-width:480px) and (max-width:751px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: auto !important;
+        /* width: 98.7vw; */
+    }
+}
+
+
+
+
+@media (min-width:300px) and (max-width:1000px) {
+   
+    .videPlayer{
+        /* display: flex; */
+    /* margin-top: 5rem; */
+        /* justify-content: center; */
+    
+    }
+    .landingpagerow{
+        display: flex;
+        /* margin-top: -10rem; */
+            justify-content: center;
+    }
+
+
+
+
+
+
+
+   
+}
+
+@media (min-width:1500px) and (max-width:1700px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 100vh !important;
+        /* width: 98.7vw; */
+    }
+}
+@media (min-width:1701px) and (max-width:1998px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 80vh !important;
+        /* width: 98.7vw; */
+    }
+}
+@media (min-width:2000px) and (max-width:2500px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 100vh !important;
+        /* width: 98.7vw; */
+    }
+    .reactplaydivlarger{
+        height: 360px !important;
+      
+    }
+}
+
+@media (min-width:2501px) and (max-width:3000px) {
+    .bg{
+        background-color: #1F242C;
+        background-image: url('../../assests/bg.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        height: 80vh !important;
+        /* width: 98.7vw; */
+    }
+    .reactplaydivlarger{
+        height: 420px !important;
+      
+    }
+}
+@media (min-width:1500px) and (max-width:2000px) {
+.reactplaydivlarger{
+    height: 360px !important;
+}
+
+.landfirdstppp{
+    font-size: 25px;
+  
+   
+ 
+    }
+    .homepageppp{
+       
+        line-height: 1.5rem;
+      
+    
+        font-size: 20px !important;
+        margin-bottom: 1.5rem;
+       
+       
+    }
+}
+
+
+@media (min-width:2000px) and (max-width:3000px) {
+    
+    
+    .landfirdstppp{
+        font-size: 32px;
+      
+      
+        }
+        .homepageppp{
+            margin-top: 2rem;
+          
+            line-height: 2rem;
+            letter-spacing: 0.1rem;
+          
+        
+            font-size: 25px !important;
+            margin-bottom: 1.5rem;
+           
+        }
+
+        .bg{
+            background-color: #1F242C;
+            background-image: url('../../assests/bg.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+            height: 110vh;
+            /* width: 98.7vw; */
+        }
+
+ }
